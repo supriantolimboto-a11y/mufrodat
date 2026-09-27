@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUFRODAT DURUSULUGHOH JILID 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="eyebrow">GALERI PEMBELAJARAN</div>
+    <h1>MUFRODAT DURUSULUGHOH JILID 1</h1>
+    <p>Kumpulan mufrodat untuk pembelajaran bahasa Arab</p>
+  </header>
+
+  <nav class="menu" aria-label="Navigasi halaman">
+    <button class="active" data-target="all">Semua</button>
+    <button data-target="mufrodat1">Mufrodat 1</button>
+    <button data-target="mufrodat2">Mufrodat 2</button>
+    <button data-target="mufrodat3">Mufrodat 3</button>
+    <button data-target="mufrodat4">Mufrodat 4</button>
+    <button data-target="mufrodat5">Mufrodat 5</button>
+  </nav>
+
+  <main class="gallery">
+    <article class="card" data-id="mufrodat1">
+      <img src="mufrodat1.jpg" alt="Mufrodat 1">
+      <div class="card-info"><span>Mufrodat 1</span><button class="open">Lihat</button></div>
+    </article>
+    <article class="card" data-id="mufrodat2">
+      <img src="mufrodat2.jpg" alt="Mufrodat 2">
+      <div class="card-info"><span>Mufrodat 2</span><button class="open">Lihat</button></div>
+    </article>
+    <article class="card" data-id="mufrodat3">
+      <img src="mufrodat3.jpg" alt="Mufrodat 3">
+      <div class="card-info"><span>Mufrodat 3</span><button class="open">Lihat</button></div>
+    </article>
+    <article class="card" data-id="mufrodat4">
+      <img src="mufrodat4.jpg" alt="Mufrodat 4">
+      <div class="card-info"><span>Mufrodat 4</span><button class="open">Lihat</button></div>
+    </article>
+    <article class="card" data-id="mufrodat5">
+      <img src="mufrodat5.jpg" alt="Mufrodat 5">
+      <div class="card-info"><span>Mufrodat 5</span><button class="open">Lihat</button></div>
+    </article>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close" id="close" aria-label="Tutup">×</button>
+    <button class="prev" id="prev" aria-label="Sebelumnya">‹</button>
+    <img id="lightboxImg" alt="">
+    <button class="next" id="next" aria-label="Berikutnya">›</button>
+    <div class="counter" id="counter"></div>
+  </div>
+
+  <footer>© 2026 MUFRODAT DURUSULUGHOH JILID 1</footer>
+  <script src="script.js"></script>
+</body>
+</html>
